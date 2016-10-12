@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#5DC784">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:gravity="center"
+        android:background="#333333"
+        android:textColor="#ffffff"
+        android:text="POKEMON"
+        android:textAllCaps="true"
+
+        />
+
+
+
+    <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop ="10dp"
+                android:id="@+id/pokemon_photo"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/pokemon_photo"
+        android:id="@+id/type"
+        android:text="TYPE"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/pokemon_photo"
+        android:id="@+id/weight"
+        android:text="WEIGHT"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:id="@+id/height"
+        android:text="HEIGHT"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+</LinearLayout>
